@@ -1,0 +1,18 @@
+[
+    {
+        "question":"How to search for locations?",
+        "answer":"You can search for locations in the input field that is directly under the 'Alan' Logo. To search for locations with different attributes, you can change the searching type by changing the field that is on top of the search field"
+    },
+    {
+        "question":"Where is the database?",
+        "answer":"The database is stored in a local file called locations.json. If something happened to your database you can go to Alan's website and copy the latest locations avaible."
+    },
+    {
+        "question":"What are the libraries that are used?",
+        "answer":"To see a full list of libraries that are used in alan, plase open the 'Help Menu & Documentation'"
+    },
+    {
+        "question":"How does this app work?",
+        "answer":"Alan is designed to help you as much as possible. You can search for locations based on various types of attributes, after you get some resutls you are free to filter them to find what you are looking for."
+    }
+]

@@ -1,0 +1,19 @@
+.headerText{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+.headerText h1{
+    font-size: 4rem;
+    color:#3E3E3E;
+    font-family: 'Saira Stencil One', cursive;
+}
+
+.headerText p{
+    font-size: 1.8rem;
+    font-family: 'Nunito', sans-serif;
+    color:#5C5C5C;
+}
