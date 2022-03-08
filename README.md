@@ -3,11 +3,11 @@
 ---
 
 ### Inslattaion:
--Go to https://drive.google.com/file/d/1hphWlR2qUVRVURLKY5feTfLMCxnYFhFG/view and click on the download button.
+- Go to https://drive.google.com/file/d/1hphWlR2qUVRVURLKY5feTfLMCxnYFhFG/view and click on the download button.
 
--Once the file is installed, open the file and drag the folder to your desktop (Do not open the .exe file when the file is in a .zip folder).
+- Once the file is installed, open the file and drag the folder to your desktop (Do not open the .exe file when the file is in a .zip folder).
 
--Open the folder and open the file called alan.exe
+- Open the folder and open the file called alan.exe
 
 ### Documetation:
 #### Attraction search
