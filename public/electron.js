@@ -323,3 +323,6 @@ ipcMain.on("getinitilalnewFAQ", async(event,message) => {
   const old = unanswered;
   event.reply("returnedinitialnewFAQ", old)
 })
+ipcMain.on("restoreDatabase", async(event,message) => {
+  fs.writeFileSync("locations.json",JSON.stringify(message),"utf-8");
+})
