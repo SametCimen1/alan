@@ -3,12 +3,12 @@
 ---
 
 ### Inslattaion:
-Go to https://drive.google.com/file/d/1hphWlR2qUVRVURLKY5feTfLMCxnYFhFG/view and click on the download button.
-Once the file is installed, open the file and drag the folder to your desktop (Do not open the .exe file when the file is in a .zip folder).
-Open the folder and open the file called alan.exe
+-Go to https://drive.google.com/file/d/1hphWlR2qUVRVURLKY5feTfLMCxnYFhFG/view and click on the download button.
+-Once the file is installed, open the file and drag the folder to your desktop (Do not open the .exe file when the file is in a .zip folder).
+-Open the folder and open the file called alan.exe
 
 ### Documetation:
-##### Attraction search
+#### Attraction search
 You can search attractions based on their location, their type (restaurants, shopping etc), their price, number of person that will attend, and finally whether if it is inside or outside.To search for an attraction, select the mode (described in the above paragraph) and search it.To search for an attraction, select the mode (described in the above paragraph) and search it.
 
 You can search attractions based on their location, their type (restaurants, shopping etc), their price, number of person that will attend, and finally whether if it is inside or outside.
@@ -25,7 +25,7 @@ To search with Number of people: You would need to enter number of persons that 
 
 To search with Outside/Inside: You You would check which one you would like to visit. However, it is possible to choose both of them. If you decide to choose both of them, the program will return all of the attractions.
 
-##### Filter Options
+#### Filter Options
 There are 4 options that you can use to filter the returned values. Number of stars, Outdoor/Indoor, price range and family friendly or not.
 
 Number of stars: You can choose the number of stars you want in an attraction. In addition to that, you can choose more than 1 star. For example if you choose 2 and 3 stars it will return all of the attractions that has either 2 or 3 stars. If you choose none of them, it will return all of the values
