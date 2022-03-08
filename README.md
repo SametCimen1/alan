@@ -1,6 +1,4 @@
-# H1 ALAN | 2022 FBLA Coding & Programming
-
----
+# ALAN | 2022 FBLA Coding & Programming
 
 ### Inslattaion:
 - Go to https://drive.google.com/file/d/1hphWlR2qUVRVURLKY5feTfLMCxnYFhFG/view and click on the download button.
