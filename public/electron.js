@@ -85,6 +85,8 @@ ipcMain.on("topFiveNewWindow", async(event, message) => {
 
 ipcMain.on("getLocationsByType", async(event, message) => {
     //empty array to contain the locations we wil find later.
+    console.log("REQUEST TO LOCATIONS BY TYPE")
+    console.log(message)
     const found = [];
 
     //if user wanted a random location. Send them a random location from the database.

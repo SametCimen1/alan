@@ -380,6 +380,7 @@
       "type": "Library",
       "tags": [
         "Library",
+        "libraries",
         "education",
         "Things To Do"
       ],
@@ -521,6 +522,7 @@
       "type": "Library",
       "tags": [
         "Library",
+        "libraries",
         "education",
         "Things To Do"
       ],
@@ -760,7 +762,8 @@
         "type": "library",
         "tags": [
           "library",
-          "education"
+          "education",
+          "libraries"
         ],
         "price": 0,
         "address": "3781 Red Bud Lane NJ, United States of America",
@@ -1586,6 +1589,7 @@
       {
         "type": "library",
         "tags": [
+          "libraries",
           "library",
           "education"
         ],
@@ -1615,6 +1619,7 @@
       {
         "type": "library",
         "tags": [
+          "libraries",
           "library",
           "education"
         ],
@@ -1645,6 +1650,7 @@
         "type": "library",
         "tags": [
           "library",
+          "libraries",
           "education"
         ],
         "price": 0,

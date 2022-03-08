@@ -95,6 +95,10 @@ export default function Footer() {
                     </div>
                 </div>
                 
+                <div className = "m-auto align-center">
+                        <button onClick = {() => setModalOpen((prev) => !prev)} className = "bg-teal-400 hover:bg-teal-300 text-white font-bold py-4 px-4 border-b-4 border-teal-700 hover:border-blue-500 rounded">Restore database</button>
+                </div>
+
                 <div>
                     {modalOpen &&
                         <div>

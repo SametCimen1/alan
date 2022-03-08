@@ -34,7 +34,7 @@ export default function Home() {
     ////
     const [categories, setCategories] = useState(false);
     const [locationSearch, setLocationSearch] = useState("")
-    const [options, setOptions] = useState(['Hotel','Mall', "Restaurant",'Shopping', "Places to Visit", "Things To Do", "Outside", "Inside", "Libraries", "Museums", "Random"])
+    const [options, setOptions] = useState(['Hotel','Mall', "Restaurant",'Shopping', "Places to Visit", "Things To Do", "Outside", "Inside", "Library", "Museums", "Random"])
     const [myOptions, setMyOptions] = useState([])
     
     const [search, setSearch] = useState(false);
