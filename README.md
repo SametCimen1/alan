@@ -46,15 +46,14 @@ To search with Outside/Inside: You You would check which one you would like to v
 
 # H3 Libaries Used
 
-| Library Name      | Purpose | Website |
-| ----------- | ----------- |
-| Electron      |  Converting html like webpages into dektop application       | https://www.electronjs.org/ | 
-| React         |     Used to write the front-end(user-interface) of the application.       | https://reactjs.org/ | 
-| Redux         |  Storing the found locations across all of the pages.        | https://redux.js.org/ | 
-| electron-is-dev |  Checks whether or not the application is in development mode. |https://www.npmjs.com/packageelectron-is-dev| 
-| Weather API       | When you click on a location, the application sends a request to this API and gets the current weather in that location.     | https://openweathermap.org/api | 
-| fs         |  Used to read and write into locations.json file, which contains the location database.       | https://nodejs.org/api/fs.html | 
-
+| Library Name    | Purpose                                                                                                                  | Website                                      |
+|-----------------|--------------------------------------------------------------------------------------------------------------------------|----------------------------------------------|
+| Electron        | Converting html like webpages into desktop applications                                                                  | https://www.electronjs.org/                  |
+| React           | Used to write the front-end (user-interface) of the application.                                                         | https://reactjs.org/                         |
+| Redux           | Storing the found locations across all of the pages.                                                                     | https://redux.js.org/                        |
+| electron-is-dev | Checks whether or not the application is in development mode.                                                            | https://www.npmjs.com/packageelectron-is-dev |
+| Weather API     | When you click on a location, the application sends a request to this API and gets the current weather in that location. | https://openweathermap.org/api               |
+| fs              | Used to read and write into locations.json file, which contains the location database.                                   | https://nodejs.org/api/fs.html               |
 # H3 Source
 
 # H3 Copyright:
