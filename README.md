@@ -28,7 +28,7 @@
 - To search with Outside/Inside: You You would check which one you would like to visit. However, it is possible to choose both of them. If you decide to choose both of them, the program will return all of the attractions.
 
 #### Filter Options
- -There are 4 options that you can use to filter the returned values. Number of stars, Outdoor/Indoor, price range and family friendly or not.
+ - There are 4 options that you can use to filter the returned values. Number of stars, Outdoor/Indoor, price range and family friendly or not.
 
 - Number of stars: You can choose the number of stars you want in an attraction. In addition to that, you can choose more than 1 star. For example if you choose 2 and 3 stars it will return all of the attractions that has either 2 or 3 stars. If you choose none of them, it will return all of the values
 
