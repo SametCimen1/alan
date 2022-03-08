@@ -1,4 +1,5 @@
 # ALAN | 2022 FBLA Coding & Programming
+## ALAN Readme File
 
 ### insulation:
 - Go to https://drive.google.com/file/d/1hphWlR2qUVRVURLKY5feTfLMCxnYFhFG/view and click on the download button.
@@ -9,7 +10,7 @@
 
 ### Documetation:
 #### Attraction search
-- You can search attractions based on their location, their type (restaurants, shopping etc), their price, number of person that will attend, and finally whether if it is inside or outside.To search for an attraction, select the mode (described in the above paragraph) and search it.To search for an attraction, select the mode (described in the above paragraph) and search it.
+- You can search attractions based on their location, their type (restaurants, shopping etc), their price, number of person that will attend, and finally whether if it is inside or outside.To search for an attraction, select the modw and search it.To search for an attraction, select the mode (described in the above paragraph) and search it.
 
 - You can search attractions based on their location, their type (restaurants, shopping etc), their price, number of person that will attend, and finally whether if it is inside or outside.
 
