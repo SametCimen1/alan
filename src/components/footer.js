@@ -153,8 +153,6 @@ export default function Footer() {
                                                 <p class="mb-2 text-lg">Number of stars: You can choose the number of stars you want in an attraction. In addition to that, you can choose more than 1 star. For example if you choose 2 and 3 stars it will return all of the attractions that has either 2 or 3 stars. If you choose none of them, it will return all of the values</p>
                                                 <p class="mb-2 text-lg">Outdoor/Indoor: You can choose to get all of the attractions that is in outdoors or indoors. You can also choose to get both indoor and outdoor attractions.</p>
                                                 <p class="mb-2 text-lg">Price: Enter the range of the price you desire. You don't have to fill this option if you don't want to. However, you can also choose to fill one of them. For example you can leave minimum empty and fill maxiumum or vice versa.</p>
-                                                <p class="mb-2 text-lg">Family Friendly: If you decide to choose it, the program will return the attractions that has family friendly tag</p>
-                                            
                                             </div>
                                         }
                                         </div>

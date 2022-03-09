@@ -12,7 +12,6 @@
 #### Attraction search
 - You can search attractions based on their location, their type (restaurants, shopping etc), their price, family friendly, and finally whether if it is inside or outside.To search for an attraction, select the mode and search the it based on the mode.
 
-
 - To search for an attraction, select the mode (described in the above paragraph) and search it.
 
 - To search with Location mode: Type the name of the location you want. For Example: Egg Harbor Township. Even if you don't write the full name, it would return all of the attractions that's address includes the input you have given. Example: Egg Harbor and Egg Harbor Township returns the same values
@@ -26,10 +25,15 @@
 - To search with Outside/Inside: You need to check which one you would like to visit. However, it is possible to choose both of them. If you decide to choose both of them, the program will return all of the attractions.
 
 #### Filter Options
- - There are 4 options that you can use to filter the returned values. Number of stars, Outdoor/Indoor and price range.
+- There are 3 options that you can use to filter the returned values. Number of stars, Outdoor/Indoor and price range.
 - Number of stars: You can choose the number of stars you want in an attraction. In addition to that, you can choose more than 1 star. For example if you choose 2 and 3 stars it will return all of the attractions that has either 2 or 3 stars. If you choose none of them, it will return all of the values
 
 - Indoor/Outdoor: If you want to get only locations that are outdoor, check outdoor button. If you only want to get the indoor locations, check the indoor button. However, you can left this are empty which would return all of the locations.
+
+- Price: Enter the range of the price you desire. You don't have to fill this option if you don't want to. However, you can also choose to fill one of them. For example you can leave minimum empty and fill maxiumum or vice versa.
+
+
+
 
 ### Libaries Used
 
