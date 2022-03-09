@@ -46,8 +46,8 @@
 ### Source
 | Name         | Purpose                                                                      | Website                              |
 |--------------|------------------------------------------------------------------------------|--------------------------------------|
-| Unsplash     | Source of all of the images in the program. Creative Commons license         | https://unsplash.com/license         |
-| Font Awesome | Source of all of the icons in the program. Creative Commons license          | https://fontawesome.com/license/free |
-| Undraw       | Illisturations in the program (The blue images in the main screen.) Creative Commons license    | https://undraw.co/license            |
+| Unsplash     | Source of all of the images in the program. License: Creative Commons license         | https://unsplash.com/license        |
+| Font Awesome | Source of all of the icons in the program.  License: Creative Commons license          | https://fontawesome.com/license/free   |
+| Undraw       | Illisturations in the program (The blue images in the main screen.) Liscense: Creative Commons license    | https://undraw.co/license            |
 
 
