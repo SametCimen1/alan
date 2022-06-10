@@ -4,56 +4,12 @@
       "tags": [
         "Hotel"
       ],
-      "name": "Aishwarya Inn",
-      "price": 85,
-      "address": "harmon meadow, secaucus, 07094, NJ, United States of America",
-      "lat": 40.78526,
-      "lot": -74.04951,
-      "totalClicked": 63,
-      "phoneNumber": "+1 (407) 017-7984",
-      "website": "http://fbla-alan.github.io/",
-      "stars": 4.1,
-      "description": "Located in New Jersey. We believe you are going to have a great time visiting us. Please come!",
-      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
-      "amenities": [
-        "Free WiFi",
-        "Bathtub",
-        "Free parking",
-        "Connecting rooms available",
-        "Non-smoking"
-      ],
-      "highlights": [
-        "149 smoke-free guestrooms",
-        "Daily housekeeping",
-        "24-hour front desk",
-        "Computer station",
-        "Front desk safe",
-        "Meeting room",
-        "Refrigerator",
-        "Connecting/adjoining rooms available",
-        "Premium TV channels"
-      ],
-      "reviews": [
-        {
-          "name": "Mustafa Cimen",
-          "star": 3,
-          "content": "This place is awesome if you plan to stay in Egg Harbor Township"
-        }
-      ],
-      "isOutSide": false,
-      "familyFriendly": false
-    },
-    {
-      "type": "Hotel",
-      "tags": [
-        "Hotel"
-      ],
       "name": "The Gilded Hotel",
       "price": 34,
       "address": "2336 Junior Avenue, secaucus, 07094, NJ, United States of America",
       "lat": 40.78526,
       "lot": -74.04951,
-      "totalClicked": 61,
+      "totalClicked": 82,
       "phoneNumber": "+1 (407) 017-7984",
       "website": "http://fbla-alan.github.io/",
       "stars": 4.1,
@@ -88,6 +44,50 @@
       "familyFriendly": false
     },
     {
+      "type": "Hotel",
+      "tags": [
+        "Hotel"
+      ],
+      "name": "Aishwarya Inn",
+      "price": 85,
+      "address": "harmon meadow, secaucus, 07094, NJ, United States of America",
+      "lat": 40.78526,
+      "lot": -74.04951,
+      "totalClicked": 78,
+      "phoneNumber": "+1 (407) 017-7984",
+      "website": "http://fbla-alan.github.io/",
+      "stars": 4.1,
+      "description": "Located in New Jersey. We believe you are going to have a great time visiting us. Please come!",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+      "amenities": [
+        "Free WiFi",
+        "Bathtub",
+        "Free parking",
+        "Connecting rooms available",
+        "Non-smoking"
+      ],
+      "highlights": [
+        "149 smoke-free guestrooms",
+        "Daily housekeeping",
+        "24-hour front desk",
+        "Computer station",
+        "Front desk safe",
+        "Meeting room",
+        "Refrigerator",
+        "Connecting/adjoining rooms available",
+        "Premium TV channels"
+      ],
+      "reviews": [
+        {
+          "name": "Mustafa Cimen",
+          "star": 3,
+          "content": "This place is awesome if you plan to stay in Egg Harbor Township"
+        }
+      ],
+      "isOutSide": false,
+      "familyFriendly": false
+    },
+    {
       "type": "Restaurant",
       "tags": [
         "Restaurant",
@@ -98,7 +98,7 @@
       "address": "3393 West Side Avenue, NJ",
       "lat": 40.00628,
       "lot": -74.76519,
-      "totalClicked": 37,
+      "totalClicked": 38,
       "phoneNumber": "(609) 087-7897",
       "website": "https://www.johnandmollys.com/",
       "stars": 4.5,
@@ -116,22 +116,81 @@
       "familyFriendly": false
     },
     {
+      "type": "library",
+      "tags": [
+        "libraries",
+        "library",
+        "education"
+      ],
+      "price": 0,
+      "address": "1541 Hickory Street Egg Harbor Township United States of America",
+      "lat": 39.39593,
+      "lot": -74.55644,
+      "totalClicked": 31,
+      "phoneNumber": "+1 410-405-7947",
+      "website": "https://fbla-alan.github.io",
+      "stars": 3,
+      "name": "New Jersey Library",
+      "description": "Located in  egg harbor township, 08234, NJ, United States of America. A great place for you and your family to spend time. You are welcomed to come here!",
+      "image": "https://images.unsplash.com/photo-1465929639680-64ee080eb3ed?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fGxpYnJhcnl8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=600",
+      "amenities": [
+        "books"
+      ],
+      "highlights": [
+        "Outdoor tennis court",
+        "Business center",
+        "24-hour front desk"
+      ],
+      "reviews": [],
+      "isOutSide": false,
+      "familyFriendly": true
+    },
+    {
       "type": "Visit",
       "tags": [
         "visit",
-        "Things To Do"
+        "Things To Do",
+        "family",
+        "United Kingdom"
       ],
       "price": 0,
-      "address": "794 River Road Egg Harbor Township NJ, United States of America",
+      "address": "1808 Tree Top Lane Egg Harbor Township NJ, United States of America",
       "lat": 39.39593,
       "lot": -74.55644,
       "totalClicked": 29,
       "phoneNumber": "+1 410-405-7947",
       "website": "https://fbla-alan.github.io",
       "stars": 4,
-      "name": "New Jersey Location Tourist",
+      "name": "Tours and Treasures",
       "description": "Located in egg harbor township, 08234, NJ, United States of America. A great place for you and your family to spend time. You are welcomed to come here!",
-      "image": "https://images.unsplash.com/photo-1595932233821-6c38c11bfcd6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8dG91cmlzdCUyMGxvY2F0aW9ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "image": "https://images.unsplash.com/photo-1600459496147-67b62637f586?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHRvdXJpc3QlMjBsb2NhdGlvbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+      "highlights": [
+        "Open 24/7"
+      ],
+      "reviews": [],
+      "isOutSide": true,
+      "familyFriendly": true
+    },
+    {
+      "type": "Visit",
+      "tags": [
+        "visit",
+        "Things To Do",
+        "family",
+        "sea",
+        "United Kingdom"
+      ],
+      "price": 0,
+      "address": "794 Lake Road Egg Harbor Township NJ, United States of America",
+      "lat": 39.39593,
+      "lot": -74.55644,
+      "totalClicked": 28,
+      "phoneNumber": "+1 410-405-7947",
+      "website": "https://fbla-alan.github.io",
+      "stars": 2,
+      "name": "Cavernous Studios",
+      "description": "Located in egg harbor township, 08234, NJ, United States of America. A great place for you and your family to spend time. You are welcomed to come here!",
+      "image": "https://images.unsplash.com/photo-1523178140748-53ca07e941b0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fHRvdXJpc3QlMjBsb2NhdGlvbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
       "highlights": [
         "Open 24/7"
       ],
@@ -180,147 +239,6 @@
       "reviews": [],
       "isOutSide": false,
       "familyFriendly": false
-    },
-    {
-      "type": "library",
-      "tags": [
-        "libraries",
-        "library",
-        "education"
-      ],
-      "price": 0,
-      "address": "1541 Hickory Street Egg Harbor Township United States of America",
-      "lat": 39.39593,
-      "lot": -74.55644,
-      "totalClicked": 28,
-      "phoneNumber": "+1 410-405-7947",
-      "website": "https://fbla-alan.github.io",
-      "stars": 3,
-      "name": "New Jersey Library",
-      "description": "Located in  egg harbor township, 08234, NJ, United States of America. A great place for you and your family to spend time. You are welcomed to come here!",
-      "image": "https://images.unsplash.com/photo-1465929639680-64ee080eb3ed?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fGxpYnJhcnl8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=600",
-      "amenities": [
-        "books"
-      ],
-      "highlights": [
-        "Outdoor tennis court",
-        "Business center",
-        "24-hour front desk"
-      ],
-      "reviews": [],
-      "isOutSide": false,
-      "familyFriendly": true
-    },
-    {
-      "type": "Visit",
-      "tags": [
-        "visit",
-        "Things To Do",
-        "family",
-        "sea",
-        "United Kingdom"
-      ],
-      "price": 0,
-      "address": "794 Lake Road Egg Harbor Township NJ, United States of America",
-      "lat": 39.39593,
-      "lot": -74.55644,
-      "totalClicked": 28,
-      "phoneNumber": "+1 410-405-7947",
-      "website": "https://fbla-alan.github.io",
-      "stars": 2,
-      "name": "Cavernous Studios",
-      "description": "Located in egg harbor township, 08234, NJ, United States of America. A great place for you and your family to spend time. You are welcomed to come here!",
-      "image": "https://images.unsplash.com/photo-1523178140748-53ca07e941b0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fHRvdXJpc3QlMjBsb2NhdGlvbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
-      "highlights": [
-        "Open 24/7"
-      ],
-      "reviews": [],
-      "isOutSide": true,
-      "familyFriendly": true
-    },
-    {
-      "type": "Visit",
-      "tags": [
-        "visit",
-        "Things To Do",
-        "family",
-        "United Kingdom"
-      ],
-      "price": 0,
-      "address": "1808 Tree Top Lane Egg Harbor Township NJ, United States of America",
-      "lat": 39.39593,
-      "lot": -74.55644,
-      "totalClicked": 27,
-      "phoneNumber": "+1 410-405-7947",
-      "website": "https://fbla-alan.github.io",
-      "stars": 4,
-      "name": "Tours and Treasures",
-      "description": "Located in egg harbor township, 08234, NJ, United States of America. A great place for you and your family to spend time. You are welcomed to come here!",
-      "image": "https://images.unsplash.com/photo-1600459496147-67b62637f586?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHRvdXJpc3QlMjBsb2NhdGlvbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
-      "highlights": [
-        "Open 24/7"
-      ],
-      "reviews": [],
-      "isOutSide": true,
-      "familyFriendly": true
-    },
-    {
-      "type": "boardwalk",
-      "tags": [
-        "boardwalks",
-        "boardwalk",
-        "family",
-        "visit",
-        "summer"
-      ],
-      "price": 0,
-      "address": "3028 Watson Street Egg Harbor Township NJ, United States of America",
-      "lat": 39.39593,
-      "lot": -74.55644,
-      "totalClicked": 27,
-      "phoneNumber": "+1 410-405-7947",
-      "website": "https://fbla-alan.github.io",
-      "stars": 2,
-      "name": "Alan Boardwalk",
-      "description": "Located in egg harbor township, 08234, NJ, United States of America. A great place for you and your family to spend time. You are welcomed to come here!",
-      "image": "https://images.unsplash.com/photo-1598202221316-2b15ef2c06f0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Ym9hcmR3YWxrfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
-      "highlights": [
-        "Open 24/7",
-        "summer"
-      ],
-      "reviews": [],
-      "isOutSide": true,
-      "familyFriendly": true
-    },
-    {
-      "type": "Visit",
-      "tags": [
-        "art",
-        "education",
-        "visit",
-        "Things To Do",
-        "Museums"
-      ],
-      "price": 0,
-      "address": "4392 Watson Street NJ, United States of America",
-      "lat": 39.39593,
-      "lot": -74.55644,
-      "totalClicked": 27,
-      "phoneNumber": "+1 410-405-7947",
-      "website": "https://fbla-alan.github.io",
-      "stars": 4,
-      "name": "Museums of Tomorrow",
-      "description": "Located in New Jersey, 08234, NJ, United States of America. A great place for you and your family to spend time. You are welcomed to come here!",
-      "image": "https://images.unsplash.com/photo-1534235826754-0a3572d1d6d5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bXVzZXVtc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
-      "highlights": [
-        "Open 24/7"
-      ],
-      "amenities": [
-        "Free Wifi"
-      ],
-      "reviews": [],
-      "isOutSide": true,
-      "familyFriendly": true
     },
     {
       "type": "Visit",
@@ -612,6 +530,64 @@
       "familyFriendly": true
     },
     {
+      "type": "Visit",
+      "tags": [
+        "art",
+        "education",
+        "visit",
+        "Things To Do",
+        "Museums"
+      ],
+      "price": 0,
+      "address": "4392 Watson Street NJ, United States of America",
+      "lat": 39.39593,
+      "lot": -74.55644,
+      "totalClicked": 27,
+      "phoneNumber": "+1 410-405-7947",
+      "website": "https://fbla-alan.github.io",
+      "stars": 4,
+      "name": "Museums of Tomorrow",
+      "description": "Located in New Jersey, 08234, NJ, United States of America. A great place for you and your family to spend time. You are welcomed to come here!",
+      "image": "https://images.unsplash.com/photo-1534235826754-0a3572d1d6d5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bXVzZXVtc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+      "highlights": [
+        "Open 24/7"
+      ],
+      "amenities": [
+        "Free Wifi"
+      ],
+      "reviews": [],
+      "isOutSide": true,
+      "familyFriendly": true
+    },
+    {
+      "type": "boardwalk",
+      "tags": [
+        "boardwalks",
+        "boardwalk",
+        "family",
+        "visit",
+        "summer"
+      ],
+      "price": 0,
+      "address": "3028 Watson Street Egg Harbor Township NJ, United States of America",
+      "lat": 39.39593,
+      "lot": -74.55644,
+      "totalClicked": 27,
+      "phoneNumber": "+1 410-405-7947",
+      "website": "https://fbla-alan.github.io",
+      "stars": 2,
+      "name": "Alan Boardwalk",
+      "description": "Located in egg harbor township, 08234, NJ, United States of America. A great place for you and your family to spend time. You are welcomed to come here!",
+      "image": "https://images.unsplash.com/photo-1598202221316-2b15ef2c06f0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Ym9hcmR3YWxrfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "highlights": [
+        "Open 24/7",
+        "summer"
+      ],
+      "reviews": [],
+      "isOutSide": true,
+      "familyFriendly": true
+    },
+    {
       "type": "Hotel",
       "tags": [
         "Hotel"
@@ -879,6 +855,79 @@
         "Restaurant",
         "Food"
       ],
+      "name": "Catch & Serve",
+      "price": "$$",
+      "address": "779 W black horse pike cologne, NJ 08213",
+      "lat": 39.50266,
+      "lot": -74.61008,
+      "totalClicked": 1,
+      "phoneNumber": "(749) 965-1597",
+      "website": "https://fbla-alan.github.io",
+      "stars": 3.5,
+      "amenities": [
+        "Takes Reservations",
+        "Accepts Credit Cards",
+        "Quiet",
+        "Good for Dinner, lunch",
+        "Offers Takeout",
+        "Private Lot Parking",
+        "Free Wi-fi"
+      ],
+      "description": "Located in NJ 08690. A great place for you and your family to spend time. You are welcomed to come here!",
+      "reviews": [],
+      "isOutSide": false,
+      "image": "https://images.unsplash.com/photo-1552566626-52f8b828add9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+    },
+    {
+      "type": "Hotel",
+      "tags": [
+        "Hotel"
+      ],
+      "name": "Swish Hotel",
+      "price": 34,
+      "address": "127 White Oak Drive 07094, NJ, United States of America",
+      "lat": 40.78526,
+      "lot": -74.04951,
+      "totalClicked": 1,
+      "phoneNumber": "+1 (407) 017-7984",
+      "website": "http://fbla-alan.github.io/",
+      "stars": 4,
+      "description": "Located in New Jersey. We believe you are going to have a great time visiting us. Please come!",
+      "image": "https://images.unsplash.com/photo-1562790351-d273a961e0e9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGhvdGVsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "amenities": [
+        "Free WiFi",
+        "Bathtub",
+        "Free parking",
+        "Connecting rooms available",
+        "Non-smoking"
+      ],
+      "highlights": [
+        "149 smoke-free guestrooms",
+        "Daily housekeeping",
+        "24-hour front desk",
+        "Computer station",
+        "Front desk safe",
+        "Meeting room",
+        "Refrigerator",
+        "Connecting/adjoining rooms available",
+        "Premium TV channels"
+      ],
+      "reviews": [
+        {
+          "name": "Mustafa Cimen",
+          "star": 3,
+          "content": "This place is awesome if you plan to stay in NJ"
+        }
+      ],
+      "isOutSide": false,
+      "familyFriendly": false
+    },
+    {
+      "type": "Restaurant",
+      "tags": [
+        "Restaurant",
+        "Food"
+      ],
       "name": "Taco Resaurant",
       "price": "$$$",
       "address": "157 farnsnorth ave, NJ 08505",
@@ -930,100 +979,6 @@
       "isOutSide": true
     },
     {
-      "type": "Restaurant",
-      "tags": [
-        "Restaurant",
-        "Food"
-      ],
-      "name": "Catch & Serve",
-      "price": "$$",
-      "address": "779 W black horse pike cologne, NJ 08213",
-      "lat": 39.50266,
-      "lot": -74.61008,
-      "totalClicked": 1,
-      "phoneNumber": "(749) 965-1597",
-      "website": "https://fbla-alan.github.io",
-      "stars": 3.5,
-      "amenities": [
-        "Takes Reservations",
-        "Accepts Credit Cards",
-        "Quiet",
-        "Good for Dinner, lunch",
-        "Offers Takeout",
-        "Private Lot Parking",
-        "Free Wi-fi"
-      ],
-      "description": "Located in NJ 08690. A great place for you and your family to spend time. You are welcomed to come here!",
-      "reviews": [],
-      "isOutSide": false,
-      "image": "https://images.unsplash.com/photo-1552566626-52f8b828add9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
-    },
-    {
-      "type": "Hotel",
-      "tags": [
-        "Hotel"
-      ],
-      "name": "Madison Motel",
-      "price": 67,
-      "address": "0211 madison avenue, cape may, 08204, NJ, United States of America",
-      "isOutSide": false,
-      "description": "Located in New Jersey. We believe you are going to have a great time visiting us. Please come!",
-      "lat": 38.93729,
-      "lot": -74.914543,
-      "totalClicked": 0,
-      "phoneNumber": "+1 (454) 780-6554",
-      "website": "https://fbla-alan.github.io",
-      "stars": 3,
-      "image": "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGhvdGVsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
-      "amenities": [
-        "Free WiFi",
-        "Internet Access",
-        "Free parking",
-        "Non-smoking",
-        "Pool"
-      ],
-      "highlights": [
-        "42 smoke-free guestrooms",
-        "Daily housekeeping",
-        "Near the beach",
-        "Outdoor pool",
-        "Terrace",
-        "Self-serve laundry",
-        "Cookware, dishware, and utensils",
-        "Microwave",
-        "Refrigerator",
-        "Private bathroom",
-        "Television"
-      ],
-      "reviews": []
-    },
-    {
-      "type": "Library",
-      "tags": [
-        "Library",
-        "libraries",
-        "education",
-        "Things To Do"
-      ],
-      "name": "Atlantic County Library",
-      "price": 0,
-      "address": "6500 atlantic city, NJ 08406",
-      "lat": 39.33411,
-      "lot": -74.49029,
-      "totalClicked": 0,
-      "phoneNumber": "(744) 897-4614",
-      "website": "https://fbla-alan.github.io",
-      "stars": 5,
-      "isOutSide": false,
-      "familyFriendly": true,
-      "description": "Located in New Jersey. We believe you are going to have a great time visiting us. Please come!",
-      "amenities": [
-        "Free Wifi"
-      ],
-      "image": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
-      "reviews": []
-    },
-    {
       "type": "Hotel",
       "tags": [
         "Hotel"
@@ -1033,56 +988,12 @@
       "address": "865 Fulton Street, Egg Harbor Township, NJ, United States of America",
       "lat": 40.78526,
       "lot": -74.04951,
-      "totalClicked": 0,
+      "totalClicked": 1,
       "phoneNumber": "+1 (407) 017-7984",
       "website": "http://fbla-alan.github.io/",
       "stars": 5,
       "description": "Located in New Jersey. We believe you are going to have a great time visiting us. Please come!",
       "image": "https://images.unsplash.com/photo-1562790351-d273a961e0e9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGhvdGVsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
-      "amenities": [
-        "Free WiFi",
-        "Bathtub",
-        "Free parking",
-        "Connecting rooms available",
-        "Non-smoking"
-      ],
-      "highlights": [
-        "149 smoke-free guestrooms",
-        "Daily housekeeping",
-        "24-hour front desk",
-        "Computer station",
-        "Front desk safe",
-        "Meeting room",
-        "Refrigerator",
-        "Connecting/adjoining rooms available",
-        "Premium TV channels"
-      ],
-      "reviews": [
-        {
-          "name": "Mustafa Cimen",
-          "star": 3,
-          "content": "This place is awesome if you plan to stay in NJ"
-        }
-      ],
-      "isOutSide": false,
-      "familyFriendly": false
-    },
-    {
-      "type": "Hotel",
-      "tags": [
-        "Hotel"
-      ],
-      "name": "The Lush Decor",
-      "price": 34,
-      "address": "2765 Timbercrest Road Egg Harbor Township, NJ, United States of America",
-      "lat": 40.78526,
-      "lot": -74.04951,
-      "totalClicked": 0,
-      "phoneNumber": "+1 (407) 017-7984",
-      "website": "http://fbla-alan.github.io/",
-      "stars": 1,
-      "description": "Located in New Jersey. We believe you are going to have a great time visiting us. Please come!",
-      "image": "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjR8fGhvdGVsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
       "amenities": [
         "Free WiFi",
         "Bathtub",
@@ -1567,17 +1478,82 @@
       "tags": [
         "Hotel"
       ],
-      "name": "Swish Hotel",
+      "name": "Madison Motel",
+      "price": 67,
+      "address": "0211 madison avenue, cape may, 08204, NJ, United States of America",
+      "isOutSide": false,
+      "description": "Located in New Jersey. We believe you are going to have a great time visiting us. Please come!",
+      "lat": 38.93729,
+      "lot": -74.914543,
+      "totalClicked": 0,
+      "phoneNumber": "+1 (454) 780-6554",
+      "website": "https://fbla-alan.github.io",
+      "stars": 3,
+      "image": "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGhvdGVsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "amenities": [
+        "Free WiFi",
+        "Internet Access",
+        "Free parking",
+        "Non-smoking",
+        "Pool"
+      ],
+      "highlights": [
+        "42 smoke-free guestrooms",
+        "Daily housekeeping",
+        "Near the beach",
+        "Outdoor pool",
+        "Terrace",
+        "Self-serve laundry",
+        "Cookware, dishware, and utensils",
+        "Microwave",
+        "Refrigerator",
+        "Private bathroom",
+        "Television"
+      ],
+      "reviews": []
+    },
+    {
+      "type": "Library",
+      "tags": [
+        "Library",
+        "libraries",
+        "education",
+        "Things To Do"
+      ],
+      "name": "Atlantic County Library",
+      "price": 0,
+      "address": "6500 atlantic city, NJ 08406",
+      "lat": 39.33411,
+      "lot": -74.49029,
+      "totalClicked": 0,
+      "phoneNumber": "(744) 897-4614",
+      "website": "https://fbla-alan.github.io",
+      "stars": 5,
+      "isOutSide": false,
+      "familyFriendly": true,
+      "description": "Located in New Jersey. We believe you are going to have a great time visiting us. Please come!",
+      "amenities": [
+        "Free Wifi"
+      ],
+      "image": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+      "reviews": []
+    },
+    {
+      "type": "Hotel",
+      "tags": [
+        "Hotel"
+      ],
+      "name": "The Lush Decor",
       "price": 34,
-      "address": "127 White Oak Drive 07094, NJ, United States of America",
+      "address": "2765 Timbercrest Road Egg Harbor Township, NJ, United States of America",
       "lat": 40.78526,
       "lot": -74.04951,
-      "totalClicked": 1,
+      "totalClicked": 0,
       "phoneNumber": "+1 (407) 017-7984",
       "website": "http://fbla-alan.github.io/",
-      "stars": 4,
+      "stars": 1,
       "description": "Located in New Jersey. We believe you are going to have a great time visiting us. Please come!",
-      "image": "https://images.unsplash.com/photo-1562790351-d273a961e0e9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGhvdGVsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "image": "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjR8fGhvdGVsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
       "amenities": [
         "Free WiFi",
         "Bathtub",
@@ -1605,5 +1581,29 @@
       ],
       "isOutSide": false,
       "familyFriendly": false
+    },
+    {
+      "type": "Visit",
+      "tags": [
+        "visit",
+        "Things To Do"
+      ],
+      "price": 0,
+      "address": "794 River Road Egg Harbor Township NJ, United States of America",
+      "lat": 39.39593,
+      "lot": -74.55644,
+      "totalClicked": 33,
+      "phoneNumber": "+1 410-405-7947",
+      "website": "https://fbla-alan.github.io",
+      "stars": 4,
+      "name": "New Jersey Location Tourist",
+      "description": "Located in egg harbor township, 08234, NJ, United States of America. A great place for you and your family to spend time. You are welcomed to come here!",
+      "image": "https://images.unsplash.com/photo-1595932233821-6c38c11bfcd6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8dG91cmlzdCUyMGxvY2F0aW9ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "highlights": [
+        "Open 24/7"
+      ],
+      "reviews": [],
+      "isOutSide": true,
+      "familyFriendly": true
     }
   ]

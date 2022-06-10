@@ -111,13 +111,12 @@ export default function BigLocation({location, onHomeClick}) {
                         <h1 style = {{cursor:"pointer"}} onClick = {() => onHomeClick()}>Alan</h1>
                         <p>Find your next place to visit!</p>
                 </section>
+
                 <section className = {style.enterence}>
+                    <a href = "/"><i class="fa-solid fa-arrow-left text-sky-500 text-3xl"></i></a>
                     <div className = {style.name}>
                         <h1>{location.name}</h1>
                     </div>  
-                    <div className = "">
-                        <h2 className = "text-orange-600">Note: all of the data in this page are not real</h2>
-                    </div>
                     <div className = {style.stars}>
                       
                         {stars.map(() => {
@@ -192,9 +191,6 @@ export default function BigLocation({location, onHomeClick}) {
                     <span>Food</span>
                 </div> */}
             </section>
-            <div className = "">
-                        <h2 className = "text-orange-600">Note: all of the data in this page are not real</h2>
-                    </div>
         </section>
         {typeof location.highlights !== 'undefined' &&
         <section className = {style.amnetias}>
@@ -211,9 +207,6 @@ export default function BigLocation({location, onHomeClick}) {
                 
 
             </section>
-            <div className = "">
-                        <h2 className = "text-orange-600">Note: data is not real</h2>
-                    </div>
         </section>
         
         }
@@ -332,6 +325,11 @@ export default function BigLocation({location, onHomeClick}) {
                
             </div>
        </section>
+
+
+       <div class = "w-4/5 m-auto bg-primary">
+                        <h2 className = "text-orange-600">Note: data is not real</h2>
+        </div>
 
     </section>
     
