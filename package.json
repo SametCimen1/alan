@@ -7,9 +7,11 @@
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.7.2",
+    "dotenv": "^16.0.1",
     "electron-is-dev": "^2.0.0",
     "fs": "^0.0.1-security",
     "mongodb": "^4.3.1",
+    "nodemailer": "^6.7.5",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-redux": "^7.2.6",

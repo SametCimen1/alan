@@ -5,8 +5,8 @@ var fs = require('fs');
 const locations = require("../locations.json")
 const faq = require("../faq.json")
 const unanswered = require("../newfaq.json")
-
-
+const nodemailer = require('nodemailer');
+require("dotenv").config();
 
 function createWindow() {
   // Create the browser window.
@@ -168,6 +168,38 @@ ipcMain.on("getInitialQuestions", async(event,message) => {
   }
   event.reply("getInitialFAQ", myArr)
 })
+
+ipcMain.on("sendLocationRequest", async(event,message) => {
+  console.log("GOT THE REQUEST")
+  const transporter = nodemailer.createTransport({
+    service: 'gmail',
+    auth: {
+      user: 'cimensamet338@gmail.com',
+      pass: process.env.GMAILPASSWORD
+    }
+  });
+  
+  console.log(message.content)
+  console.log(message.content.location)
+  const mailOptions = {
+    from: 'cimensamet338@gmail.com',
+    to: "cimensamet338@gmail.com",
+    subject: 'Find Work Buddy Verification code',
+    text: `${message.content.location}`
+  };
+  let isErr = false;
+  transporter.sendMail(mailOptions, function(error, info){
+    if (error) {
+      isErr = error;
+    } else {
+      isErr = false;
+    }
+  });
+
+
+  event.reply("sentEmail", isErr)
+})
+
 
 ipcMain.on("increaseVisitedTime", async(event,message) => {
   let found = {};

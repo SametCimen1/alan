@@ -39,6 +39,7 @@ export default function Home() {
     
     const [search, setSearch] = useState(false);
     const [found, setFound] = useState([]);
+    const [sentEmail, setSentEmail] = useState(false);
     const [filterBool, setFilterBool] = useState(false);
     const [sortBool, setSortBool] = useState(false);
     const [currentLocation, setCurrentLocation] = useState("")
@@ -54,6 +55,7 @@ export default function Home() {
 
     const [outside, setOutside] = useState(false)
     const [inside, setInside] = useState(false)
+    const [requestLocation, setRequestLocation] = useState("")
 
 
     const [foundAmnetias, setFoundAmnetias] = useState([]);
@@ -193,6 +195,24 @@ export default function Home() {
     }, [count])
 
 
+    const sendLocationRequest = () => {
+        console.log("SENDING")
+        ipc.send("sendLocationRequest", {
+            content:{
+                location:requestLocation,
+            }
+        })
+    }
+
+    ipc.on("sentEmail", (event,arg) => {
+        if(arg === false){
+            setSentEmail(true);
+        }
+        else{
+            alert("errror sending email, please check the console for more info")
+            console.log(arg)
+        }
+    })
     
 
     const searchByPrice = () => {
@@ -546,7 +566,18 @@ export default function Home() {
                                     
                                     <div>
                                         <h1>Sorry, we could not find any location</h1>
+                                        {sentEmail && <div>
+                                            <p class = "text-cyan-300 text-center text-2xl">successfully sent the email</p>
+                                        </div>}
                                         <img className = "w-1/2 m-auto" src = "./404.png"></img>
+                                        <div className = "w-4/5 text-center m-auto my-2">
+                                            <h2 className = "couldNotFind">Don't give up! If you want to see locations that meets this criteria, fill out the form and click on request!</h2>
+                                        </div>
+                                        <div className = "w-full flex justify-center m-auto">
+                                            <input value = {requestLocation} onChange = {(e) => setRequestLocation(e.target.value)}   placeholder='What do you want to see?' type = "text" className = {`${"bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500 mr-1"} ${style.questionInput}`}></input>
+                                            <button onClick =  {()=> sendLocationRequest() } className ="bg-blue-500 hover:bg-blue-400 text-white font-bold py-4 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">request!</button>
+                                        </div>
+
                                     </div>
                                     }
                                 </div>

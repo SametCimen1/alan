@@ -17,3 +17,11 @@
     font-family: 'Nunito', sans-serif;
     color:#5C5C5C;
 }
+
+.couldNotFind{
+    text-align: center;
+    font-size: 1.5rem;
+    color:#1b6dcb;
+    
+  
+}
