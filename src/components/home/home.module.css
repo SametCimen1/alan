@@ -538,3 +538,33 @@ svg{
    display: flex;
    justify-content: center;
 }
+@keyframes moveUp {
+    0%{
+       transform: translateY(0);
+    }
+    100%{
+        box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.2), 0 4px 6px -4px rgb(0 0 0 / 0.2);
+        transform: translateY(-20px);
+
+    }
+}
+.topFiveDiv:hover{
+   animation: moveUp 0.5s forwards;
+} 
+.questionMark{
+    width: 80%;
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+}
+.questionMark i{
+    color:#007FFF;
+    border-radius: 50%;
+    border: 1px solid #E0E0E0;
+    padding: 5px 10px;
+    font-size: 2rem;
+}
+.align{
+   
+    text-align: center;
+}

@@ -1,12 +1,12 @@
 import React from 'react'
 import style from './home/home.module.css'
 import {useEffect, useState} from 'react'
-
+import { forwardRef } from 'react';
 
 const electron = window.require('electron');
 const ipc = electron.ipcRenderer;
 
-export default function Footer() {
+const Footer = forwardRef((props, ref) => {
   const [addQuestionBtn, setAddQuestionBtn] = useState(false);
   const [myQuestion, setMyQuestion] = useState("");
   const [openUnanswered, setOpenUnanswered] = useState(false);
@@ -90,10 +90,10 @@ export default function Footer() {
       })
   }
   return (
-      <div>
+      <div ref= {ref}> 
        <section className = {style.howToUse}>
-                <div className = {style.header}>
-                    <h1>How To Use Alan</h1>
+                <div className = {`${style.header} "header"`}>
+                    <h1>How To Use Alan</h1> 
                 </div>
                 <div className ="flex justify-center" >
                   <img  className = {style.svgImages} src = "question.png"></img>
@@ -340,5 +340,6 @@ export default function Footer() {
 
 
 </div>
-)
-}
+  );
+});
+export default Footer;

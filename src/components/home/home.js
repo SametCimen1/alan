@@ -7,6 +7,7 @@ import { useSelector, useDispatch } from 'react-redux'
 import { initTopFive,init,initFiltered } from '../../redux/counterSlice'
 import Filter from './filter/filter'
 import Faq from '../footer.js'
+import {useRef} from 'react'
 const electron = window.require('electron');
 const ipc = electron.ipcRenderer;
 
@@ -19,7 +20,7 @@ export default function Home() {
     const filteredCount = useSelector(state => state.counter.filteredValue);
     const topFive = useSelector(state => state.counter.topFive);
     const dispatch = useDispatch()
-
+    const ref = useRef(null)
 
     useEffect(() =>{
         console.log("FILTERED AFFECTED")
@@ -46,7 +47,7 @@ export default function Home() {
     const [selectedOption, setSelectedOption] = useState("Location")
     const [isFamilyFriendly, setIsFamilyFriendly] = useState(false)
     const [currentMode, setCurrentMode] = useState("")
-
+    const [invalidInput, setInvalidInput] = useState(false);
     const [isFreeChecked, setIsFreeChecked] = useState(false);
     const [minPrice, setMinPrice] = useState("");
     const [maxPrice, setMaxPrice] = useState("");
@@ -160,27 +161,36 @@ export default function Home() {
 
 
     const searchOnClick = (option) => {
-        dispatch(initFiltered(["None"]))
-        setMyOptions("")
         console.log("Search on click", option)
-        if(option === "Location"){
-            setCurrentMode("Location")
-            ipc.send("getLocationsByLocation", { //fixed
-                content:locationSearch
-            })
-        }
-        else if(option === "Type"){
-            setCurrentMode("Type")
-            ipc.send("getLocationsByType", { //fixed
-                content:locationSearch
-            })
+        if( (option ==="Type" || option === "Location") && (locationSearch ==="" ||locationSearch ===";" || locationSearch ==="." || locationSearch ==="["|| locationSearch ==="]"|| locationSearch ===" "|| locationSearch ==="`"|| locationSearch ==="/" || locationSearch ==="-" )){
+            setSearch(false);
+            setInvalidInput(true)
         }
         else{
-            dispatch(init([]))
-            ipc.send("getLocationByCategory", {
-                content:option
-            })
+            setInvalidInput(false);
+            if(option === "Location"){
+                setCurrentMode("Location")
+                    ipc.send("getLocationsByLocation", { //fixed
+                        content:locationSearch
+                })
+    
+            }
+            else if(option === "Type"){
+                setCurrentMode("Type")
+                ipc.send("getLocationsByType", { //fixed
+                    content:locationSearch
+                })
+            }
+            else{
+                dispatch(init([]))
+                ipc.send("getLocationByCategory", {
+                    content:option
+                })
+            }
+            dispatch(initFiltered(["None"]))
+            setMyOptions("")
         }
+
     }
 
     ipc.on("updateFound", (event,arg) => {
@@ -296,13 +306,24 @@ export default function Home() {
     }
     return (
         <div >
+            <section className = {style.questionMark}>
+                <div className = {style.align}>
+                    <a href = "#header">
+                        <i class="fa-solid fa-question" onClick = {() => {ref.current.scrollIntoView({ behavior: "smooth" });}}></i>
+                    </a>
+                    <p>How to use?</p>
+                </div>
+            </section>
             <section className = {style.svgContainer}> 
+
                 <div className = "w-3/6" style = {{"display":"flex", "justifyContent":"center"}}>
                   <img className = {style.svgImages} src = "adventure.png"></img>
                 </div>
+                
                 <div className = "w-3/6" style = {{"display":"flex", "justifyContent":"center"}}>
                   <img  className = {style.svgImages} src = "travel.png"></img>
                 </div>
+                
             </section> 
             {currentLocation === "" ?
             
@@ -438,9 +459,10 @@ export default function Home() {
                 </div>
                 }
                 
+                {invalidInput &&
+                 <p class = "text-orange-500 text-center text-2xl">Please enter a valid input.</p>
+                }
                 
-
-
                 
                 <section className = {`${style.categoriesBtn} `}>
                   <button type="button" onClick = {() =>setCategories((prev) => !prev)} class="mr-4 text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900">Categories</button>
@@ -509,7 +531,7 @@ export default function Home() {
                         </div>
                 </section>
                 <section>
-                    <Faq></Faq>
+                    <Faq ref = {ref}></Faq>
                 </section>
             </section>
             :
