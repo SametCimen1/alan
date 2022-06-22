@@ -161,8 +161,7 @@ export default function BigLocation({location, onHomeClick}) {
         <section className = {style.amnetias}>
             <h1 className = {style.header}>Amenities</h1>
             <section className = {style.amnetiasContainer}>
-                
-                {typeof location.amenities !== "undefined" && location.amenities.length > 0 &&
+                {typeof location.amenities !== "undefined" && location.amenities.length > 0 ?
                  <div className = {style.amnetiaDivContainer}>
                      {location.amenities.map((amnetia) => {
                          let currentFont =""
@@ -180,6 +179,8 @@ export default function BigLocation({location, onHomeClick}) {
                          )
                      })}
                  </div>
+                 :
+                 <span>Sorry, this location does not have any amenities</span>
                 }
                 
                 {/* <div className = {style.amnetia}>

@@ -65,7 +65,7 @@ export default function Filter() {
             console.log(found)
             for(let i = 0; i<found.length; i++){
                 console.log(typeof found[i].price)
-                if(typeof found[i].price === "string"){
+                if(typeof found[i].price === "string" && found[i].price ===0){
                     addIfNotPresent(found[i])
                 }
                 else{

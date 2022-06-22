@@ -283,7 +283,7 @@ ipcMain.on("getInsideOutsideLocations", async(event,message) => {
   if(message.content.outside && !message.content.inside){ //only outside
     const sorted = [];
     for(let i =0; i<locations.length; i++){
-      if(locations[i].isOutside){
+      if(locations[i].isOutside === true){
         sorted.push(locations[i])
       }
     }
@@ -292,7 +292,8 @@ ipcMain.on("getInsideOutsideLocations", async(event,message) => {
   else if(message.content.inside && !message.content.outside){
       const sorted = [];
       for(let i =0; i<locations.length; i++){
-        if(!locations[i].isOutSide){
+        if(locations[i].isOutSide === false){
+          console.log(locations[i].isOutSide)
           sorted.push(locations[i])
         }
       }
