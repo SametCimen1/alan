@@ -8,11 +8,10 @@ export const counterSlice = createSlice({
     filteredValue: [
     ],
     topFive:[
-
     ]
   },
   reducers: {
-   
+
     init: (state, action) => {
         state.value = action.payload
     },
